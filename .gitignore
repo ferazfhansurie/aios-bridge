@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.local
+.wwebjs_auth/
+.wwebjs_cache/
+data/sessions.json
+data/media/
+logs/
+config.json
+.mcp.json
+CLAUDE.md
+*.log
+.DS_Store

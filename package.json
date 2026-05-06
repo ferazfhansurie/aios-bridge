@@ -1,0 +1,20 @@
+{
+  "name": "aios-bridge",
+  "version": "0.1.0",
+  "description": "WhatsApp → Claude Code → ship → reply. The integration bridge that turns any WhatsApp group into an AI co-worker for your business.",
+  "private": true,
+  "scripts": {
+    "connect": "node scripts/connect.js",
+    "listener": "node scripts/listener.js",
+    "start": "node scripts/listener.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.1-alpha.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

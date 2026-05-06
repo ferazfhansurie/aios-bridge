@@ -1,0 +1,30 @@
+{
+  "client": {
+    "name": "Acme Sdn Bhd",
+    "id": "acme-001",
+    "whatsapp_number": ""
+  },
+  "team": {
+    "60123456789": {
+      "name": "Owner",
+      "role": "owner",
+      "permissions": ["all"],
+      "context": "Full access — business data, team management, deploys, anything."
+    },
+    "60198765432": {
+      "name": "Staff",
+      "role": "staff",
+      "permissions": ["catalog_search", "customer_query"],
+      "context": "Front-of-house. Search catalogs, look up customers. No financials."
+    }
+  },
+  "group_aliases": {
+    "team": "",
+    "suppliers": ""
+  },
+  "settings": {
+    "ignore_groups": false,
+    "require_mention_in_groups": true,
+    "only_team_members": true
+  }
+}

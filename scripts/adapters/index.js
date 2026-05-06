@@ -13,8 +13,9 @@
 
 const adapters = {
   'claude-code': require('./claude-code'),
-  // 'opencode':   require('./opencode'),  // day 8
-  // 'ollama':     require('./ollama'),    // day 8 — local fallback
+  'opencode':    require('./opencode'),  // day 8 — multi-provider harness (skeleton)
+  'ollama':      require('./ollama'),    // day 8 — local fallback (skeleton)
+  'failover':    require('./failover'),  // day 8 — try a chain of adapters in order
 };
 
 function getAdapter(name = 'claude-code') {
